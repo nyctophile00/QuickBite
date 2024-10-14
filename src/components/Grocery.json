@@ -1,0 +1,163 @@
+[
+      {
+        "id": 1,
+        "name": "Fresh Organic Apples",
+        "category": "Fruits",
+        "price": 4.99,
+        "weight": "1 lb",
+        "image": "https://images.pexels.com/photos/672101/pexels-photo-672101.jpeg?auto=compress&cs=tinysrgb&w=600"
+      },
+      {
+        "id": 2,
+        "name": "Whole Wheat Bread",
+        "category": "Bakery",
+        "price": 2.99,
+        "weight": "1 loaf",
+        "image": "https://images.pexels.com/photos/10672664/pexels-photo-10672664.jpeg?auto=compress&cs=tinysrgb&w=600"
+      },
+      {
+        "id": 3,
+        "name": "Low-Fat Milk",
+        "category": "Dairy",
+        "price": 1.99,
+        "weight": "1 gallon",
+        "image": "https://images.pexels.com/photos/20285568/pexels-photo-20285568/free-photo-of-cartons-of-flavored-milk.jpeg?auto=compress&cs=tinysrgb&w=600"
+      },
+      {
+        "id": 4,
+        "name": "Brown Eggs",
+        "category": "Dairy",
+        "price": 3.49,
+        "weight": "12 count",
+        "image": "https://images.pexels.com/photos/600615/pexels-photo-600615.jpeg?auto=compress&cs=tinysrgb&w=600"
+      },
+      {
+        "id": 5,
+        "name": "Boneless Chicken Breast",
+        "category": "Meat",
+        "price": 7.99,
+        "weight": "2 lbs",
+        "image": "https://images.pexels.com/photos/8251004/pexels-photo-8251004.jpeg?auto=compress&cs=tinysrgb&w=600"
+      },
+      {
+        "id": 6,
+        "name": "Fresh Baby Spinach",
+        "category": "Vegetables",
+        "price": 3.99,
+        "weight": "10 oz",
+        "image": "https://images.pexels.com/photos/8845078/pexels-photo-8845078.jpeg?auto=compress&cs=tinysrgb&w=600"
+      },
+      {
+        "id": 7,
+        "name": "Red Potatoes",
+        "category": "Vegetables",
+        "price": 1.99,
+        "weight": "2 lbs",
+        "image": "https://images.pexels.com/photos/28487084/pexels-photo-28487084/free-photo-of-heap-of-fresh-red-potatoes-for-cooking.jpeg?auto=compress&cs=tinysrgb&w=600"
+      },
+      {
+        "id": 8,
+        "name": "Fresh Salmon Fillet",
+        "category": "Seafood",
+        "price": 12.99,
+        "weight": "1 lb",
+        "image": "https://images.pexels.com/photos/14062142/pexels-photo-14062142.jpeg?auto=compress&cs=tinysrgb&w=600"
+      },
+      {
+        "id": 9,
+        "name": "Cheddar Cheese",
+        "category": "Dairy",
+        "price": 4.49,
+        "weight": "8 oz",
+        "image": "https://images.pexels.com/photos/6004715/pexels-photo-6004715.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      },
+      {
+        "id": 10,
+        "name": "Ground Beef",
+        "category": "Meat",
+        "price": 6.99,
+        "weight": "1 lb",
+        "image": "https://images.pexels.com/photos/7284305/pexels-photo-7284305.jpeg?auto=compress&cs=tinysrgb&w=600"
+      },
+      {
+        "id": 11,
+        "name": "Frozen Peas",
+        "category": "Frozen",
+        "price": 2.29,
+        "weight": "12 oz",
+        "image": "https://images.pexels.com/photos/8965124/pexels-photo-8965124.jpeg?auto=compress&cs=tinysrgb&w=600"
+      },
+      {
+        "id": 12,
+        "name": "Greek Yogurt",
+        "category": "Dairy",
+        "price": 1.49,
+        "weight": "6 oz",
+        "image": "https://example.com/images/yogurt.jpg"
+      },
+      {
+        "id": 13,
+        "name": "Peanut Butter",
+        "category": "Pantry",
+        "price": 3.79,
+        "weight": "16 oz",
+        "image": "https://images.pexels.com/photos/5149345/pexels-photo-5149345.jpeg?auto=compress&cs=tinysrgb&w=600"
+      },
+      {
+        "id": 14,
+        "name": "Orange Juice",
+        "category": "Beverages",
+        "price": 4.99,
+        "weight": "59 oz",
+        "image": "https://images.pexels.com/photos/5331319/pexels-photo-5331319.jpeg?auto=compress&cs=tinysrgb&w=600"
+      },
+      {
+        "id": 15,
+        "name": "Canned Black Beans",
+        "category": "Pantry",
+        "price": 1.19,
+        "weight": "15 oz",
+        "image": "https://example.com/images/black-beans.jpg"
+      },
+      {
+        "id": 16,
+        "name": "Olive Oil",
+        "category": "Pantry",
+        "price": 8.99,
+        "weight": "16.9 oz",
+        "image": "https://images.pexels.com/photos/1611560/pexels-photo-1611560.jpeg?auto=compress&cs=tinysrgb&w=600"
+      },
+      {
+        "id": 17,
+        "name": "Quinoa",
+        "category": "Grains",
+        "price": 4.49,
+        "weight": "12 oz",
+        "image": "https://example.com/images/quinoa.jpg"
+      },
+      {
+        "id": 18,
+        "name": "Bananas",
+        "category": "Fruits",
+        "price": 0.59,
+        "weight": "1 lb",
+        "image": "https://images.pexels.com/photos/1607192/pexels-photo-1607192.jpeg?auto=compress&cs=tinysrgb&w=600"
+      },
+      {
+        "id": 19,
+        "name": "Avocados",
+        "category": "Fruits",
+        "price": 1.79,
+        "weight": "1 each",
+        "image": "https://images.pexels.com/photos/557659/pexels-photo-557659.jpeg?auto=compress&cs=tinysrgb&w=600"
+      },
+      {
+        "id": 20,
+        "name": "Organic Honey",
+        "category": "Pantry",
+        "price": 5.99,
+        "weight": "12 oz",
+        "image": "https://images.pexels.com/photos/14168472/pexels-photo-14168472.jpeg?auto=compress&cs=tinysrgb&w=600"
+      }
+    ]
+  

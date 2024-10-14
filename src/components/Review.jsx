@@ -1,5 +1,6 @@
 import React from 'react';
 import reviewsData from './reviews.json'; // Importing JSON data directly
+import './ReviewSection.css';
 
 const ReviewSection = () => {
     const reviews = reviewsData.reviews; // Accessing the reviews directly from the imported JSON

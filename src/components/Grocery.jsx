@@ -1,21 +1,21 @@
 
 import React from 'react';
 
-import data from './foods.json';
+import data from './Grocery.json'; 
 
-const Foods = () => {
+const Grocery = () => {
   return (
     <div className='flex gap-5 flex-wrap justify-center'>
       {data.map((person, index) => {
 
-        const { name, price, imageUrl, } = person;
+        const { name, price, image, } = person;
 
         return (
           <div key={index}>
             <div className="card bg-base-100 image-full w-80 mb-5 shadow-xl">
   <figure>
     <img
-      src={imageUrl}
+      src={image}
       alt="" />
   </figure>
   <div className="card-body">
@@ -33,4 +33,4 @@ const Foods = () => {
   );
 };
 
-export default Foods;
+export default Grocery;

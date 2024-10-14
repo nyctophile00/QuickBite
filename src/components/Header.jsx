@@ -44,7 +44,7 @@ export default function Header() {
   </div>
   <div className="flex-none">
     <ul className="menu menu-horizontal px-1">
-      <li><a>Restaurants</a></li>
+      <li><a>Browse Restaurants</a></li>
       <li><a></a></li>
       <li>
         <details>

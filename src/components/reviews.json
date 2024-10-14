@@ -1,0 +1,23 @@
+{
+    "reviews": [
+      {
+        "name": "John Doe",
+        "rating": 5,
+        "avatar": "https://i.pravatar.cc/50?img=1",
+        "text": "Great service! The groceries were fresh and delivered on time."
+      },
+      {
+        "name": "Jane Smith",
+        "rating": 4,
+        "avatar": "https://i.pravatar.cc/50?img=2",
+        "text": "Loved the variety of products. Only wish delivery was a little faster."
+      },
+      {
+        "name": "Mike Johnson",
+        "rating": 3,
+        "avatar": "https://i.pravatar.cc/50?img=3",
+        "text": "Good experience, but some items were out of stock."
+      }
+    ]
+  }
+  

@@ -1,0 +1,183 @@
+[
+    {
+      "id": 1,
+      "name": "Margherita Pizza",
+      "category": "Italian",
+      "price": 8.5,
+      "isVegetarian": true,
+      "inStock": true,
+      "imageUrl": "https://images.pexels.com/photos/6605232/pexels-photo-6605232.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 2,
+      "name": "Chicken Caesar Salad",
+      "category": "Salads",
+      "price": 7.0,
+      "isVegetarian": false,
+      "inStock": true,
+      "imageUrl": "https://images.pexels.com/photos/8251536/pexels-photo-8251536.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 3,
+      "name": "Beef Burrito",
+      "category": "Mexican",
+      "price": 6.5,
+      "isVegetarian": false,
+      "inStock": true,
+      "imageUrl": "https://images.pexels.com/photos/14979836/pexels-photo-14979836/free-photo-of-burrito-in-close-up-photography.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 4,
+      "name": "Vegetable Stir-Fry",
+      "category": "Asian",
+      "price": 9.0,
+      "isVegetarian": true,
+      "inStock": true,
+      "imageUrl": "https://images.pexels.com/photos/2181151/pexels-photo-2181151.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 5,
+      "name": "Spaghetti Bolognese",
+      "category": "Italian",
+      "price": 10.0,
+      "isVegetarian": false,
+      "inStock": false,
+      "imageUrl": "https://images.pexels.com/photos/128408/pexels-photo-128408.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 6,
+      "name": "Mushroom Risotto",
+      "category": "Italian",
+      "price": 11.0,
+      "isVegetarian": true,
+      "inStock": true,
+      "imageUrl": "https://images.pexels.com/photos/7636374/pexels-photo-7636374.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 7,
+      "name": "Cheeseburger",
+      "category": "American",
+      "price": 5.5,
+      "isVegetarian": false,
+      "inStock": true,
+      "imageUrl": "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 8,
+      "name": "Pad Thai",
+      "category": "Thai",
+      "price": 8.0,
+      "isVegetarian": true,
+      "inStock": true,
+      "imageUrl": "https://images.pexels.com/photos/11292523/pexels-photo-11292523.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 9,
+      "name": "Fish Tacos",
+      "category": "Mexican",
+      "price": 6.0,
+      "isVegetarian": false,
+      "inStock": true,
+      "imageUrl": "https://images.pexels.com/photos/8448325/pexels-photo-8448325.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 10,
+      "name": "Chicken Alfredo Pasta",
+      "category": "Italian",
+      "price": 9.5,
+      "isVegetarian": false,
+      "inStock": false,
+      "imageUrl": "https://images.pexels.com/photos/11220209/pexels-photo-11220209.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 11,
+      "name": "Vegetable Sushi Roll",
+      "category": "Japanese",
+      "price": 7.0,
+      "isVegetarian": true,
+      "inStock": true,
+      "imageUrl": "https://images.pexels.com/photos/1028425/pexels-photo-1028425.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 12,
+      "name": "Beef Tacos",
+      "category": "Mexican",
+      "price": 5.0,
+      "isVegetarian": false,
+      "inStock": true,
+      "imageUrl": "https://images.pexels.com/photos/5454019/pexels-photo-5454019.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 13,
+      "name": "Grilled Cheese Sandwich",
+      "category": "American",
+      "price": 4.5,
+      "isVegetarian": true,
+      "inStock": true,
+      "imageUrl": "https://images.pexels.com/photos/2160291/pexels-photo-2160291.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 14,
+      "name": "Chicken Curry",
+      "category": "Indian",
+      "price": 8.0,
+      "isVegetarian": false,
+      "inStock": true,
+      "imageUrl": "https://images.pexels.com/photos/6113820/pexels-photo-6113820.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 15,
+      "name": "Falafel Wrap",
+      "category": "Middle Eastern",
+      "price": 6.0,
+      "isVegetarian": true,
+      "inStock": true,
+      "imageUrl": "https://images.pexels.com/photos/5175621/pexels-photo-5175621.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 16,
+      "name": "Lentil Soup",
+      "category": "Soups",
+      "price": 4.0,
+      "isVegetarian": true,
+      "inStock": true,
+      "imageUrl": "https://images.pexels.com/photos/28902900/pexels-photo-28902900/free-photo-of-delicious-bowl-of-lentil-soup-garnished-with-fresh-herbs.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 17,
+      "name": "BBQ Ribs",
+      "category": "American",
+      "price": 12.0,
+      "isVegetarian": false,
+      "inStock": false,
+      "imageUrl": "https://images.pexels.com/photos/8250699/pexels-photo-8250699.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 18,
+      "name": "Chicken Quesadilla",
+      "category": "Mexican",
+      "price": 7.5,
+      "isVegetarian": false,
+      "inStock": true,
+      "imageUrl": "https://images.pexels.com/photos/5836439/pexels-photo-5836439.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 19,
+      "name": "Vegan Burger",
+      "category": "American",
+      "price": 6.5,
+      "isVegetarian": true,
+      "inStock": true,
+      "imageUrl": "https://images.pexels.com/photos/11209030/pexels-photo-11209030.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 20,
+      "name": "Shrimp Scampi",
+      "category": "Seafood",
+      "price": 13.0,
+      "isVegetarian": false,
+      "inStock": true,
+      "imageUrl": "https://images.pexels.com/photos/8697539/pexels-photo-8697539.jpeg?auto=compress&cs=tinysrgb&w=600"
+    }
+  ]
+  

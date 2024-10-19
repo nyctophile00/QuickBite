@@ -7,6 +7,7 @@ import ReviewSection from '../components/Review.jsx'
 import AboutUs from '../components/AboutUs.jsx'
 import Grocery from '../components/Grocery.jsx'
 import ServiceSection from '../components/ServiceSection.jsx'
+import { Link } from 'react-router-dom'
 
 export default function Home() {
   return (
@@ -96,7 +97,7 @@ export default function Home() {
   </div>
 </div>
   </div>
-  <button className="btn justify-center w-full my-5">See more>>></button>
+  <Link to={`/foods`}><button className="btn justify-center w-full my-5">See more>>></button></Link>
 
   {/* home foods end */}
 
@@ -149,7 +150,7 @@ export default function Home() {
   </div>
 </div>
  </div>
- <button className="btn justify-center w-full my-5">See more>>></button>
+ <Link to={`/groceries`}><button className="btn justify-center w-full my-5">See more>>></button></Link>
 
     {/* home groceries end */}
 

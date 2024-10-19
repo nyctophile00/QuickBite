@@ -5,7 +5,7 @@ import data from './restaurants.json';
 
 const Restaurants = () => {
   return (
-    <div className='flex gap-5 flex-wrap justify-center'>
+    <div className='flex gap-5 flex-wrap justify-center mx-auto w-5/6'>
       {data.map((person, index) => {
 
         const { name, price, image, } = person;

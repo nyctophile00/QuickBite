@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 export default function Header() {
@@ -5,7 +6,7 @@ export default function Header() {
     <>
     <div className="navbar bg-base-100 justify-between">
   <div className="">
-    <a className="btn btn-ghost text-xl">QuickBite</a>
+    <Link to={`/`} className="btn btn-ghost text-xl">QuickBite</Link>
   </div>
   <div className='justify-self-center'>
   <button className="btn"> <i class="fa-solid fa-location-crosshairs"></i>Your Location</button>
@@ -44,23 +45,19 @@ export default function Header() {
   </div>
   <div className="flex-none">
     <ul className="menu menu-horizontal px-1">
-      <li><a>Browse Restaurants</a></li>
+      <li><Link to={`/restaurants`}>Browse Restaurants</Link></li>
       <li><a></a></li>
       <li>
         <details>
           <summary>Items</summary>
           <ul className="bg-base-100 rounded-t-none p-2">
-            <li><a>Prepared Food</a></li>
-            <li><a>Grocery</a></li>
+            <li><Link to={`/foods`}>Prepared Food</Link></li>
+            <li><Link to={`/groceries`}>Grocery</Link></li>
           </ul>
         </details>
       </li>
     </ul>
   </div>
-</div>
-
-<div className="">
-
 </div>
     </>
   )

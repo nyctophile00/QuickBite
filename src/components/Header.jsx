@@ -6,7 +6,7 @@ export default function Header() {
     <>
     <div className="navbar bg-base-100 justify-between">
   <div className="">
-    <a to={`/`} className="btn btn-ghost text-xl">QuickBite</a>
+    <Link to={`/`} className="btn btn-ghost text-xl">QuickBite</Link>
   </div>
   <div className='justify-self-center'>
   <button className="btn"> <i class="fa-solid fa-location-crosshairs"></i>Your Location</button>

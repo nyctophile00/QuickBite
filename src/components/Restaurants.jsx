@@ -1,12 +1,21 @@
 
 import React from 'react';
 
-import data from './restaurants.json'; 
+import { useEffect, useState } from "react"
 
 const Restaurants = () => {
+
+  const [products, setProducts] = useState([])
+  useEffect(()=>{
+      fetch("./restaurants.json")
+      .then(res=>res.json())
+      .then(data=>setProducts(data))
+},[])
+
+
   return (
     <div className='flex gap-5 flex-wrap justify-center mx-auto w-5/6'>
-      {data.map((person, index) => {
+      {products.map((person, index) => {
 
         const { name, price, image, } = person;
 

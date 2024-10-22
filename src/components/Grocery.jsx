@@ -1,12 +1,21 @@
 
 import React from 'react';
 
-import data from './Grocery.json'; 
+import { useEffect, useState } from "react"
 
 const Grocery = () => {
+
+  const [products, setProducts] = useState([])
+  useEffect(()=>{
+      fetch("./Grocery.json")
+      .then(res=>res.json())
+      .then(data=>setProducts(data))
+},[])
+
+
   return (
     <div className='flex gap-5 flex-wrap justify-center'>
-      {data.map((person, index) => {
+      {products.map((person, index) => {
 
         const { name, price, image, } = person;
 

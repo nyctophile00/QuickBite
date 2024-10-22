@@ -1,15 +1,21 @@
 import React from 'react';
-import reviewsData from './reviews.json'; // Importing JSON data directly
+import { useEffect, useState } from "react";
 import './ReviewSection.css';
 
 const ReviewSection = () => {
-    const reviews = reviewsData.reviews; // Accessing the reviews directly from the imported JSON
+     const [products, setProducts] = useState([])
+    useEffect(()=>{
+        fetch("./reviews.json")
+        .then(res=>res.json())
+        .then(data=>setProducts(data))
+  },[])
+
 
     return (
         <div className="review-section ">
             <h2 className="review-title mt-12 mb-10 text-xl text-center">Customer Reviews</h2>
             <div className="reviews-container flex">
-                {reviews.map((review, index) => (
+                {products.map((review, index) => (
                     <div className="review-card" key={index}>
                         <div className="review-header">
                             <img

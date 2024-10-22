@@ -1,5 +1,4 @@
-{
-    "reviews": [
+[
       {
         "name": "John Doe",
         "rating": 5,
@@ -19,5 +18,3 @@
         "text": "Good experience, but some items were out of stock."
       }
     ]
-  }
-  

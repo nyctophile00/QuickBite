@@ -6,6 +6,7 @@ import Restaurants from '../pages/Restaurants';
 import Foods from '../pages/Foods.jsx';
 import Grocery from '../pages/Grocery.jsx';
 import AboutUs from '../components/AboutUs.jsx';
+import ContactForm from '../components/Contact.jsx';
 
 const routes = createBrowserRouter([
     {
@@ -31,6 +32,10 @@ const routes = createBrowserRouter([
             {
                 path:"/aboutus",
                 element:<AboutUs/>
+            },
+            {
+                path:"/contact",
+                element:<ContactForm/>
             },
 
         ]
